@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff7e8;
+}
+
+main {
+    padding: 3rem;
+    columns: 2 50ch;
+    gap: 60px;
+    column-rule: 2px solid #ffb9b9;
+
+    h2 {
+        column-span: all;
+        margin-bottom: 1em;
+    }
+    p {
+        line-height: 1.5;
+        margin-bottom: 0.4em;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+    img {
+        width: 50%;
+        float: left;
+        margin-right: 1.5em;
+        margin-bottom: 1em;
+    }
+}
+
+footer {
+    margin-left: 30px;
+}
+

@@ -1,0 +1,46 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff7e8;
+}
+
+main {
+  padding: 3rem;
+  -webkit-columns: 2 50ch;
+          columns: 2 50ch;
+  gap: 60px;
+  -webkit-column-rule: 2px solid #ffb9b9;
+          column-rule: 2px solid #ffb9b9;
+}
+
+main h2 {
+  -webkit-column-span: all;
+          column-span: all;
+  margin-bottom: 1em;
+}
+
+main p {
+  line-height: 1.5;
+  margin-bottom: 0.4em;
+}
+
+main p:last-child {
+  margin-bottom: 0px;
+}
+
+main img {
+  width: 50%;
+  float: left;
+  margin-right: 1.5em;
+  margin-bottom: 1em;
+}
+
+footer {
+  margin-left: 30px;
+}
+/*# sourceMappingURL=style.css.map */
